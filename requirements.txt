@@ -1,0 +1,5 @@
+# Kivy's installation might fail. If it requires 'python.h', use 'sudo apt-get install python3-dev'
+# cython and pygame are required by Kivy
+cython
+kivy
+pygame
