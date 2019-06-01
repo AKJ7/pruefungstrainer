@@ -72,11 +72,12 @@ class XMLHandler:
             raise NameError('Child with attribute: ' + name + ' not found')
 
 
-x = XMLHandler('xmlsTest.xml')
-# print(x['Panama'][1].text)
-# x['Panama'] = 'test'
-# x.insert_question('Panama', 'this is a test')
-# x.insert_subject('math')
-x.insert_question('math', 'Another test in math2')
-# x.remove_subject('math')
-# x.remove_question('math', 3)
+if __name__ == '__main__':
+    x = XMLHandler('xmlsTest.xml')
+    # print(x['Panama'][1].text)
+    # x['Panama'] = 'test'
+    # x.insert_question('Panama', 'this is a test')
+    # x.insert_subject('math')
+    x.insert_question('math', 'Another test in math2')
+    # x.remove_subject('math')
+    # x.remove_question('math', 3)
